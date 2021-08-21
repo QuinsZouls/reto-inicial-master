@@ -1,0 +1,27 @@
+.title-screen-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .title {
+    padding: 20px;
+    h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: 50px;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 150px;
+      @include mobile {
+        font-size: 36px;
+      }
+    }
+    .icon-wrapper {
+      text-align: center;
+      .icon {
+        color: #fff;
+        font-size: 100px;
+      }
+    }
+  }
+}

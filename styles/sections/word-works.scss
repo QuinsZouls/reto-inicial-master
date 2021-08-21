@@ -1,0 +1,29 @@
+.word-works-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-45deg, #23a6d5, #23d5ab);
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    .content {
+      color: #fff;
+      font-family: 'Anton', sans-serif;
+      width: 40%;
+      .title {
+        text-align: right;
+        font-size: 40px;
+        color: #fff;
+        font-family: 'Anton', sans-serif;
+      }
+      p {
+        letter-spacing: 2px;
+      }
+    }
+    .logo {
+      width: 40%;
+    }
+  }
+}

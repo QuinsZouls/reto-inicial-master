@@ -1,0 +1,14 @@
+//Theme
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import './responsive.scss';
+//Screens and components
+@import './sections/title-screen.scss';
+@import './sections/word-works.scss';
+
+//Animations
+@import './animations/gradient.scss';
+@import './animations/bounce.scss';
+
+html {
+  overflow-x: hidden;
+}
