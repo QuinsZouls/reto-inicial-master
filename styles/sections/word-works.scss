@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(-45deg, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #23a6d5, #dfe6e9);
   .wrapper {
     display: flex;
     justify-content: space-between;
@@ -13,17 +13,27 @@
       font-family: 'Anton', sans-serif;
       width: 40%;
       .title {
-        text-align: right;
+        text-align: left;
         font-size: 40px;
         color: #fff;
         font-family: 'Anton', sans-serif;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
       }
       p {
-        letter-spacing: 2px;
+        letter-spacing: 3px;
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 650px;
+        text-align: justify;
       }
     }
     .logo {
       width: 40%;
+      transform: rotate(25deg);
+      img {
+        max-width: 500px;
+      }
     }
   }
 }
