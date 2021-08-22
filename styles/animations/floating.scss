@@ -1,0 +1,53 @@
+.floating-1 {
+  animation-name: floating-1;
+  animation-timing-function: linear;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.floating-2 {
+  animation-name: floating-2;
+  animation-timing-function: linear;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.floating-3 {
+  animation-name: floating-3;
+  animation-timing-function: linear;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+@keyframes floating-1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-35px) rotate(-23deg);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes floating-2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-35px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes floating-3 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-35px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

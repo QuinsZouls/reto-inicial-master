@@ -1,0 +1,38 @@
+.title-screen-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dfe6e9;
+  .title {
+    padding: 20px;
+    z-index: 3;
+    h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: 50px;
+      color: #191847;
+      text-align: center;
+      margin-bottom: 150px;
+      letter-spacing: 3px;
+      @include mobile {
+        font-size: 36px;
+      }
+    }
+    .icon-wrapper {
+      text-align: center;
+      .icon {
+        color: #191847;
+        font-size: 100px;
+      }
+    }
+  }
+  .float-img {
+    position: absolute;
+    right: 30px;
+    img {
+      transform: rotate(25deg);
+      z-index: 2;
+    }
+  }
+}
