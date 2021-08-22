@@ -5,14 +5,19 @@ import ServiceProvider from '../components/sections/ServiceProvider';
 import TitleScreen from '../components/sections/TitleScreen';
 import WordWorks from '../components/sections/WordWorks';
 
-const Home = () => (
-  <div className="home">
-    <TitleScreen />
-    <WordWorks />
-    <EasyImplement />
-    <ServiceProvider />
-    <PayForUse />
-  </div>
-);
+const Home = () => {
+  return (
+    <div className="home">
+      <div className="info">Dispositivo no compatible</div>
+      <div className="content">
+        <TitleScreen />
+        <WordWorks />
+        <EasyImplement />
+        <ServiceProvider />
+        <PayForUse />
+      </div>
+    </div>
+  );
+};
 
 export default Home;
