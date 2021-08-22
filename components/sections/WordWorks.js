@@ -36,7 +36,7 @@ const WordWorks = () => {
               Como desarrollador de software, es fundamental contar con un
               espacio en la web para hacer crecer tu aplicación, con azure y sus
               servicios en la nube nunca fué tan fácil darle ese espacio que
-              tanto se merece a tu aplicación.
+              tanto se merece tu aplicación.
             </p>
           </AnimationWhenVisible>
         </div>
