@@ -1,0 +1,38 @@
+.pay-for-use-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-45deg, #fd79a8, #9b59b6);
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    .content {
+      color: #fff;
+      font-family: 'Anton', sans-serif;
+      width: 40%;
+      .title {
+        text-align: left;
+        font-size: 40px;
+        color: #fff;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+      }
+      p {
+        letter-spacing: 3px;
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 650px;
+        text-align: justify;
+      }
+    }
+    .logo {
+      width: 40%;
+      img {
+        max-width: 500px;
+      }
+    }
+  }
+}
